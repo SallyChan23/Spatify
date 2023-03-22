@@ -52,3 +52,5 @@ musicPlayerSection.addEventListener('click', () => {
  backToMusicPlayer.addEventListener('click', () => {
     playlistSection.classList.remove('active');
  })
+
+ 
