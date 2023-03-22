@@ -4,11 +4,166 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Spatify</title>
 </head>
 <body>
     
+    <section class="home-section">
+        <div class="carousel">
+            <img src="assets/images/images/cover 1.png" class="active" alt="">
+            <img src="assets/images/images/cover 2.png" alt="">
+            <img src="assets/images/images/cover 3.png" alt="">
+            <img src="assets/images/images/cover 4.png" alt="">
+            <img src="assets/images/images/cover 5.png" alt="">
+        </div>
+        
+        <h1 class="heading">Recently Played</h1>
+        <div class="playlist-group">
+            <div class="playlist-card">
+                <img src="assets/images/images/cover 9.png" class="playlist-card-img" alt="">
+                <p class="playlist-card-name">Top International</p>
+            </div>
+            <div class="playlist-card">
+                <img src="assets/images/images/cover 2.png" class="playlist-card-img" alt="">
+                <p class="playlist-card-name">Top Hits</p>
+            </div>
+            <div class="playlist-card">
+                <img src="assets/images/images/cover 10.png" class="playlist-card-img" alt="">
+                <p class="playlist-card-name">Top 50</p>
+            </div>
+            <div class="playlist-card">
+                <img src="assets/images/images/cover 11.png" class="playlist-card-img" alt="">
+                <p class="playlist-card-name">Top Indonesia</p>
+            </div>
+        </div>
+
+        <h1 class="heading">Based On Your Listening</h1>
+        <div class="playlist-group">
+            <div class="playlist-card">
+                <img src="assets/images/images/cover 9.png" class="playlist-card-img" alt="">
+                <p class="playlist-card-name">Top International</p>
+            </div>
+            <div class="playlist-card">
+                <img src="assets/images/images/cover 2.png" class="playlist-card-img" alt="">
+                <p class="playlist-card-name">Top Hits</p>
+            </div>
+            <div class="playlist-card">
+                <img src="assets/images/images/cover 10.png" class="playlist-card-img" alt="">
+                <p class="playlist-card-name">Top 50</p>
+            </div>
+            <div class="playlist-card">
+                <img src="assets/images/images/cover 11.png" class="playlist-card-img" alt="">
+                <p class="playlist-card-name">Top Indonesia</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="music-player-section">
+
+        <img src="assets/images/images/back.png" class="back-btn icon hide" alt="">
+        <img src="assets/images/images/nav.png" class="nav-btn icon hide" alt="">
+
+        <h1 class="current-song-name">song 1</h1>
+        <p class="artist-name">artist 1</p>
+
+        <img src="assets/images/images/cover 1.png" class="cover" alt="">
+
+        <div class="seek-bar-container">
+            <input type="range" class="music-seek-bar" value="0">
+            <p class="curren-time">00 : 00</p>
+            <p class="duration">00 : 00</p>
+        </div>
+
+        <div class="controls">
+            <span class="fas fa-redo"></span>
+            <div class="main">
+                <i class="fas fa-backward active"></i>
+                <i class="fas fa-play active"></i>
+                <i class="fas fa-pause"></i>
+                <i class="fas fa-forward active"></i>
+            </div>
+            <input type="range" class="volume-slider" max="1" value="1" step="0.1">
+            <span class="fas fa-volume-up"></span>
+        </div>
+    </section>
+
+    <section class="playlist">
+        <img src="assets/images/images/back.png" class="back-btn icon" alt="">
+
+        <h1 class="title">playlist</h1>
+
+        <div class="queue active">
+            <div class="queue-cover">
+                <img src="assets/images/images/cover 1.png" alt="">
+                <i class="fas fa-pause"></i>
+            </div>
+            <p class="name">song 1</p>
+        </div>
+
+        <div class="queue">
+            <div class="queue-cover">
+                <img src="assets/images/images/cover 2.png" alt="">
+                <i class="fas fa-pause"></i>
+            </div>
+            <p class="name">song 2</p>
+        </div>
+
+        <div class="queue">
+            <div class="queue-cover">
+                <img src="assets/images/images/cover 3.png" alt="">
+                <i class="fas fa-pause"></i>
+            </div>
+            <p class="name">song 3</p>
+        </div>
+
+        <div class="queue">
+            <div class="queue-cover">
+                <img src="assets/images/images/cover 4.png" alt="">
+                <i class="fas fa-pause"></i>
+            </div>
+            <p class="name">song 4</p>
+        </div>
+
+        <div class="queue">
+            <div class="queue-cover">
+                <img src="assets/images/images/cover 5.png" alt="">
+                <i class="fas fa-pause"></i>
+            </div>
+            <p class="name">song 5</p>
+        </div>
+
+        <div class="queue">
+            <div class="queue-cover">
+                <img src="assets/images/images/cover 6.png" alt="">
+                <i class="fas fa-pause"></i>
+            </div>
+            <p class="name">song 6</p>
+        </div>
+
+        <div class="queue">
+            <div class="queue-cover">
+                <img src="assets/images/images/cover 7.png" alt="">
+                <i class="fas fa-pause"></i>
+            </div>
+            <p class="name">song 7</p>
+        </div>
+        
+        <div class="queue">
+            <div class="queue-cover">
+                <img src="assets/images/images/cover 8.png" alt="">
+                <i class="fas fa-pause"></i>
+            </div>
+            <p class="name">song 8</p>
+        </div>
+
+    </section>
+
+    
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
